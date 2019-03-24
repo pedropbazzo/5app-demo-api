@@ -5,6 +5,9 @@
   "repository": "https://github.com/isaachinman/5app-demo-api.git",
   "author": "Isaac Hinman <isaac@isaachinman.com>",
   "license": "MIT",
+  "engines": {
+    "node": ">=11"
+  },
   "scripts": {
     "dev": "nodemon",
     "build": "tsc",
