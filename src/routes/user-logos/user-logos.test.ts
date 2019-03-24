@@ -6,7 +6,7 @@ const ROOT_URL = '/v1/user-logos'
 
 describe('User logos endpoint', () => {
 
-  test('Returns a token for correct login details', () => {
+  it('returns expected response as provided in the exercise brief', () => {
     const reqFromBrief = {
       payload: [
         {
